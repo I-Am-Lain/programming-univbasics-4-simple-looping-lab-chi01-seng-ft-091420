@@ -13,3 +13,11 @@ def output_array(m)
     puts item
   end
 end
+
+def return_string_array(array)
+  new_array = []
+  for item in array do
+    new_array << item.to_s
+  end
+  new_array
+end
