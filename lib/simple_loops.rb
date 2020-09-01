@@ -9,5 +9,7 @@ def loop_message_n_times(message, n)
 end
 
 def output_array(m, n)
-
+  for item in m do
+    puts item
+  end
 end
