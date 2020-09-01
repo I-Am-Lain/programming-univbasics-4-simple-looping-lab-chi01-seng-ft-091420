@@ -8,7 +8,7 @@ def loop_message_n_times(message, n)
   n.times {puts message}
 end
 
-def output_array(m, n)
+def output_array(m)
   for item in m do
     puts item
   end
